@@ -1,0 +1,49 @@
+.title {
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size:30px;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: powderblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* 위에 커서를 놓았을 때 변하는 색깔 */
+  li a:hover {
+    background-color: greenyellow;
+  }
+
+  .submit {
+      border: 1px solid rgb(152, 169, 221);
+      border-radius: 15px;
+      background-color: rgb(152, 169, 221);
+      width: 80px;
+      height: 25px;
+  }
+
+  .cancle {
+    border: 1px solid aliceblue;
+    border-radius: 15px;
+    background-color: aliceblue;
+    width: 80px;
+    height: 25px;
+}
+
+.submit:hover, .cancle:hover {
+    background-color: yellow;
+}
