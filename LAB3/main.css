@@ -49,9 +49,9 @@ nav > ul {
   }
 
   .template {
-    width: 40%;
+    width: 484px;
     margin: 10px;
-    height: 500px;
+    height: 484px;
     border: solid;
     float: left;
   }
@@ -59,6 +59,7 @@ nav > ul {
   /* rotate */
   .rotate_commodity {
     width: 100%;
+    height: 100%;
     transition: transform 2s;               /* check */
   }
 
@@ -68,7 +69,8 @@ nav > ul {
 
   /* scale */
   .scale_commodity {
-    width: 80%;
+    width: 50%;
+    height: 50%;
     transition: width 2s, height 2s;        /* check */
   }
 
