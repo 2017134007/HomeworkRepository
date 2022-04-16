@@ -60,6 +60,7 @@
     max-width: 100%;
     border-style: solid;
     border-width: 1px;
+    margin: 2%;
   }
 
   .commodity > img {
@@ -68,14 +69,7 @@
 
   /********** introduction **********/
   .introduction {
-    column-count: 2;
-    column-rule-style: double;
-    column-rule-width: 3px;
-    margin: 20px;
-  }
-
-  .introduction > h3, hr {
-    column-span: all;
+    margin: 20px 0px;
   }
 
   /********** title **********/
@@ -137,9 +131,9 @@
     flex-direction: column;
   }
 
-    /********** commodity container **********/
+  /********** commodity container **********/
   .commodity_container {
-    margin: 10px;
+    margin: 10px 0px;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -148,20 +142,26 @@
 
   .commodity_box {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
   }
 
   .commodity {
     flex: 45%;
-    max-width: 45%;
+    max-width: 45%; 
     border-style: solid;
     border-width: 1px;
+    margin: 2%;
   }
 
   .commodity > img {
     width: 100%;
+  }
+
+  /********** introduction **********/
+  .introduction {
+    margin: 20px 0px;
   }
 
   /********** title **********/
@@ -216,8 +216,8 @@
 
   /********** main container **********/
   .main_container {
-    margin: 0;
-    padding: 0;
+    margin: 10px 0px;
+    padding: 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -225,8 +225,8 @@
 
   /********** commodity container **********/
   .commodity_container {
-    margin: 10px;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -255,7 +255,7 @@
     column-count: 2;
     column-rule-style: double;
     column-rule-width: 3px;
-    margin: 20px;
+    margin: 20px 0px;
   }
 
   .introduction > h3, hr {
