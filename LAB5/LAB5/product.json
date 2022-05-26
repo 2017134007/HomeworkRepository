@@ -1,0 +1,146 @@
+[
+  {
+    "name": "3050",
+    "price": 40,
+    "image": "3050.png",
+    "type": "graphic_card"
+  },
+  {
+    "name": "3060",
+    "price": 40,
+    "image": "3060.png",
+    "type": "graphic_card"
+  },
+  {
+    "name": "3060ti",
+    "price": 60,
+    "image": "3060ti.png",
+    "type": "graphic_card"
+  },
+  {
+    "name": "3070",
+    "price": 40,
+    "image": "3070.png",
+    "type": "graphic_card"
+  },
+  {
+    "name": "3070ti",
+    "price": 70,
+    "image": "3070ti.png",
+    "type": "graphic_card"
+  },
+  {
+    "name": "3080",
+    "price": 80,
+    "image": "3080.png",
+    "type": "graphic_card"
+  },
+  {
+    "name": "3090",
+    "price": 40,
+    "image": "3090.png",
+    "type": "graphic_card"
+  },
+  {
+    "name": "3090ti",
+    "price": 40,
+    "image": "3090ti.png",
+    "type": "graphic_card"
+  },
+  {
+    "name": "Z490-A",
+    "price": 40,
+    "image": "Z490-A.png",
+    "type": "mainboard"
+  },
+  {
+    "name": "Z490-CREATOR",
+    "price": 40,
+    "image": "Z490-CREATOR.png",
+    "type": "mainboard"
+  },
+  {
+    "name": "W480-ACE",
+    "price": 40,
+    "image": "W480-ACE.png",
+    "type": "mainboard"
+  },
+  {
+    "name": "STRIX B660-A",
+    "price": 40,
+    "image": "STRIX B660-A.png",
+    "type": "mainboard"
+  },
+  {
+    "name": "MAXIMUS Z609",
+    "price": 40,
+    "image": "MAXIMUS Z609.png",
+    "type": "mainboard"
+  },
+  {
+    "name": "STRIX Z690-E",
+    "price": 40,
+    "image": "STRIX Z690-E.png",
+    "type": "mainboard"
+  },
+  {
+    "name": "STRIX Z690-I",
+    "price": 40,
+    "image": "STRIX Z690-I.png",
+    "type": "mainboard"
+  },
+  {
+    "name": "STRIX Z690-G",
+    "price": 40,
+    "image": "STRIX Z690-G.png",
+    "type": "mainboard"
+  },
+  {
+    "name": "12400F",
+    "price": 40,
+    "image": "12400F.jpg",
+    "type": "CPU"
+  },
+  {
+    "name": "12700",
+    "price": 40,
+    "image": "12700.jpg",
+    "type": "CPU"
+  },
+  {
+    "name": "12400",
+    "price": 40,
+    "image": "12400.jpg",
+    "type": "CPU"
+  },
+  {
+    "name": "12700K",
+    "price": 40,
+    "image": "12700K.jpg",
+    "type": "CPU"
+  },
+  {
+    "name": "12500",
+    "price": 40,
+    "image": "12500.jpg",
+    "type": "CPU"
+  },
+  {
+    "name": "12900K",
+    "price": 40,
+    "image": "12900K.jpg",
+    "type": "CPU"
+  },
+  {
+    "name": "12100",
+    "price": 40,
+    "image": "12100.jpg",
+    "type": "CPU"
+  },
+  {
+    "name": "12700KF",
+    "price": 40,
+    "image": "12700KF.jpg",
+    "type": "CPU"
+  }
+]
