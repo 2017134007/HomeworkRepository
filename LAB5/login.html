@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>LAB5_signup</title>
+  </head>
+  <body>
+    <p class="title">Welcome to Internet Programming Shop</p>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">메인페이지</a></li>
+        <li><a href="login.html">로그인</a></li>
+        <li><a href="signup.html">회원가입</a></li>
+      </ul>
+    </nav>
+
+    <hr />
+
+    <form method="post" action="#">
+      <p>회원정보(필수)</p>
+      <p>
+        <label
+          >아이디:
+          <input type="text" name="user_id" required />
+        </label>
+      </p>
+      <p>
+        <label
+          >비밀번호:
+          <input type="password" name="password" required />
+        </label>
+      </p>
+      <p>
+        <input class="submit" type="submit" value="로그인" />
+        <input class="cancle" type="reset" value="cancle" />
+      </p>
+    </form>
+
+    <hr />
+  </body>
+</html>

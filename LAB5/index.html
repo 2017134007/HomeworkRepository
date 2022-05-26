@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>E-commerce main page</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <p class="title">Welcome to Internet Programming Shop</p>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">메인페이지</a></li>
+        <li><a href="login.html">로그인</a></li>
+        <li><a href="signup.html">회원가입</a></li>
+      </ul>
+    </nav>
+
+    <div id="main_container">
+      <div id="side_container">
+        <form id="my_form">
+          <div>
+            <label for="category">Choose a category:<br /></label>
+            <select id="category">
+              <option value="all">All</option>
+              <option value="graphic_card">Graphic Card</option>
+              <option value="mainboard">Mainboard</option>
+              <option value="CPU">CPU</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="search">Enter search term:<br /></label>
+            <input id="search" type="search" placeholder="e.g.CPU" />
+          </div>
+
+          <div>
+            <button type="submit">Filter results</button>
+          </div>
+        </form>
+      </div>
+      <div id="product_container">
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
